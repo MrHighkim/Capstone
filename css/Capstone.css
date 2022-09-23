@@ -76,14 +76,23 @@ color: #333;
 }
 
 section:nth-of-type(even){
-    background: #333;
-    color: #eee;
+    background-image: url(../images/jetpack.jpg);
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    background-repeat: no-repeat;
+     /* background: #333; */
+    color: rgb(121, 8, 8); 
 }
+
+
 footer{
-    height: 70px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
     color: aqua;
 }
+
